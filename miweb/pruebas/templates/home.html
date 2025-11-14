@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de Inicio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6fb;
+      color: #333;
+    }
+
+    .header {
+      padding: 20px;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .tab {
+      padding: 10px 24px;
+      background-color: #4287f5;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .tab:hover {
+      background-color: #3065c9;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      font-size: 16px;
+    }
+
+    .card {
+      background: white;
+      width: 70%;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="tabs">
+      <a href="/pruebas/" class="tab">Pruebas</a>
+      <a href="/template/" class="tab">Template</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Página Principal</h1>
+
+    <div class="card">
+      <h2>Esta es mi pagina con DJANGO</h2>
+      <p>Pruebas lo llevara al punto 3 de la tarea</p>
+      <p>Template lo llevara al punto 4 de la tarea</p>
+    </div>
+  </div>
+
+</body>
+</html>
